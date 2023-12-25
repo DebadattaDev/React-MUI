@@ -34,7 +34,7 @@ const MuiButton = () => {
         </IconButton>
     </Stack>
     <Stack direction='row'>
-    <ToggleButtonGroup>
+    <ToggleButtonGroup aria-label='text format'>
         <ToggleButton>
             <FormatBoldIcon/>
         </ToggleButton>
